@@ -1,8 +1,9 @@
+
 func playerDidMove(_ direction: String) {
     if direction == "up" ||
-       direction == "down" ||
-       direction == "left" ||
-       direction == "right" {
+        direction == "down" ||
+        direction == "left" ||
+        direction == "right" {
         print("Player moved \(direction)")
     } else {
         print("Oops! That direction doesn't make sense: \(direction)")
@@ -21,7 +22,7 @@ enum Direction {
     case down
     case left
     case right
-
+    
     var excited: String {
         switch self {
         case .up:
